@@ -68,5 +68,4 @@ function whereBuilder(filters: Filters) {
 
   const whereCotizacion = whereBuilder(filtrosB);
   const result = whereCotizacion(null, httpParams);
-  console.log(result);
 })()
